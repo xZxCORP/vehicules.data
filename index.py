@@ -4,7 +4,8 @@ import os
 import pandas as pd
 import numpy as np
 
-from vehicule_classes import Model
+from typing import Union
+from vehicule_classes import Model, Vehicle
 
 
 ISSUES = {
@@ -71,16 +72,12 @@ VEHICLE_KEYS = {
     "engineSize",
 }
 
-
-CRASHES_FILE = open("crash/crash.csv")
 VEHICLES_DIR = r"vehicles"
 
 
 def get_vin():
     # Définir les caractères valides pour un VIN
-    characters = "".join(
-        [c for c in string.ascii_uppercase + string.digits if c not in "IOQ"]
-    )
+    characters = [c for c in string.ascii_uppercase + string.digits if c not in "IOQ"]
 
     # Générer chaque section du VIN
     # WMI (3 caractères)
@@ -98,6 +95,8 @@ def get_vin():
 def generate_choices(array: list, size, replace=False):
     p = np.random.rand(len(array))
     final_p = p / np.sum(p)
+    if size > len(array):
+        size = len(array) - 1
 
     choices: list = np.random.choice(
         a=array, p=final_p, size=size, replace=replace
@@ -121,7 +120,7 @@ def reassign_risks_categories(risks: list[str]):
     return output
 
 
-def set_p_for_brands(df: pd.DataFrame, name: str):
+def set_p_for_brands(df: pd.DataFrame, name: str) -> list[Model]:
     keys = [key for key in ISSUES["generic"]]
     keys.extend([key for key in ISSUES["exterior"]])
     keys.extend([key for key in ISSUES["mechanical"]])
@@ -134,8 +133,6 @@ def set_p_for_brands(df: pd.DataFrame, name: str):
     for index, row in df.iterrows():
 
         n = np.random.randint(2, 5)
-        model_risks_choices = []
-
         model_risks_choices = generate_choices(constructor_risks, size=n)
 
         vehicles.append(
@@ -154,9 +151,41 @@ def set_p_for_brands(df: pd.DataFrame, name: str):
 
 
 def generate_car(model: dict):
-    df = pd.read_csv(f"data/crash.csv")
+    model: Model = Model(**model)
+    crash_df = pd.read_csv("data/crash.csv")
+    rounds = (2024 - model.year) % 5
 
-    return
+    car: Union[Vehicle, None] = None
+
+    if rounds <= 0:
+        rounds = 1
+
+    sinisters = []
+    issues = {"exterior": [], "mechanical": [], "generic": []}
+
+    for _ in range(rounds):
+        has_sinister = np.random.choice([True, False], p=[0.25, 0.75])
+        if has_sinister:
+            accident = crash_df.sample().to_dict()
+            sinisters.append(accident)
+
+            key = np.random.choice(["exterior", "mechanical", "generic"])
+            issues[key].append(np.random.choice(ISSUES[key]))
+
+    if np.random.choice([True, False], p=[0.45, 0.55]):
+        issues[key].append(np.random.choice(model.risks[key]))
+
+    car = Vehicle(
+        constructor=model.constructor,
+        model=model.model,
+        year=model.year,
+        risks=model.risks,
+        sinisters=sinisters,
+        vin=get_vin(),
+        issues=issues,
+    )
+
+    return car
 
 
 for filename in os.listdir(VEHICLES_DIR):
@@ -168,4 +197,7 @@ for filename in os.listdir(VEHICLES_DIR):
     models = list(set(df["model"].tolist()))
     unique_vehicles = [{"name": x.strip()} for x in models]
 
-    set_p_for_brands(df, filename.strip(".csv"))
+    brand_models = set_p_for_brands(df, filename.strip(".csv"))
+
+    for i in range(1, 1000):
+        model: Model = np.random.choice(brand_models)

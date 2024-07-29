@@ -15,3 +15,14 @@ class Model:
     model: str
     year: int
     risks: list[Risk]
+
+
+@dataclass
+class Vehicle(Model):
+    constructor: str
+    model: str
+    year: int
+    risks: list[Risk]
+    sinisters: list
+    vin: str
+    issues: list[Risk]
