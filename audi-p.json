@@ -1,0 +1,1028 @@
+[
+  { "constructor": "audi", "model": "A1", "year": 2017, "risks": { "exterior": ["REAR_BUMPER"], "mechanical": ["FUEL_SYSTEM"], "generic": [] } },
+  {
+    "constructor": "audi",
+    "model": "A6",
+    "year": 2016,
+    "risks": { "exterior": [], "mechanical": ["CLUTCH_PROBLEM", "UNKNOWN_DAMAGE", "FUEL_SYSTEM"], "generic": [] }
+  },
+  {
+    "constructor": "audi",
+    "model": "A1",
+    "year": 2016,
+    "risks": { "exterior": ["RIGHT_FENDER"], "mechanical": ["FUEL_SYSTEM"], "generic": ["UNKNOWN_DAMAGE"] }
+  },
+  { "constructor": "audi", "model": "A4", "year": 2017, "risks": { "exterior": ["REAR_BUMPER"], "mechanical": ["ENGINE_FAILURE"], "generic": [] } },
+  { "constructor": "audi", "model": "A3", "year": 2019, "risks": { "exterior": ["RIGHT_FENDER"], "mechanical": ["ENGINE_FAILURE"], "generic": [] } },
+  {
+    "constructor": "audi",
+    "model": "A4",
+    "year": 2016,
+    "risks": { "exterior": [], "mechanical": ["ENGINE_FAILURE", "UNKNOWN_DAMAGE", "FUEL_SYSTEM"], "generic": ["UNKNOWN_DAMAGE"] }
+  },
+  {
+    "constructor": "audi",
+    "model": "A3",
+    "year": 2015,
+    "risks": { "exterior": ["RIGHT_FENDER"], "mechanical": ["FUEL_SYSTEM", "ENGINE_FAILURE"], "generic": [] }
+  },
+  {
+    "constructor": "audi",
+    "model": "A3",
+    "year": 2017,
+    "risks": { "exterior": ["RIGHT_FENDER", "UNKNOWN_DAMAGE"], "mechanical": [], "generic": ["UNKNOWN_DAMAGE"] }
+  },
+  {
+    "constructor": "audi",
+    "model": "Q3",
+    "year": 2016,
+    "risks": { "exterior": ["REAR_BUMPER", "UNKNOWN_DAMAGE"], "mechanical": ["CLUTCH_PROBLEM"], "generic": [] }
+  },
+  {
+    "constructor": "audi",
+    "model": "A6",
+    "year": 2015,
+    "risks": { "exterior": ["REAR_BUMPER", "UNKNOWN_DAMAGE"], "mechanical": ["FUEL_SYSTEM"], "generic": [] }
+  },
+  {
+    "constructor": "audi",
+    "model": "A3",
+    "year": 2014,
+    "risks": { "exterior": ["RIGHT_FENDER"], "mechanical": ["CLUTCH_PROBLEM"], "generic": ["UNKNOWN_DAMAGE"] }
+  },
+  { "constructor": "audi", "model": "Q5", "year": 2016, "risks": { "exterior": ["REAR_BUMPER"], "mechanical": ["FUEL_SYSTEM"], "generic": [] } },
+  {
+    "constructor": "audi",
+    "model": "Q3",
+    "year": 2014,
+    "risks": { "exterior": ["REAR_BUMPER"], "mechanical": ["FUEL_SYSTEM", "UNKNOWN_DAMAGE"], "generic": [] }
+  },
+  { "constructor": "audi", "model": "A5", "year": 2017, "risks": { "exterior": [], "mechanical": ["FUEL_SYSTEM", "CLUTCH_PROBLEM"], "generic": [] } },
+  { "constructor": "audi", "model": "A1", "year": 2018, "risks": { "exterior": ["REAR_BUMPER"], "mechanical": ["FUEL_SYSTEM"], "generic": [] } },
+  {
+    "constructor": "audi",
+    "model": "A4",
+    "year": 2018,
+    "risks": { "exterior": ["RIGHT_FENDER"], "mechanical": ["CLUTCH_PROBLEM", "FUEL_SYSTEM"], "generic": ["UNKNOWN_DAMAGE"] }
+  },
+  {
+    "constructor": "audi",
+    "model": "A1",
+    "year": 2015,
+    "risks": { "exterior": ["RIGHT_FENDER"], "mechanical": ["FUEL_SYSTEM", "ENGINE_FAILURE", "CLUTCH_PROBLEM"], "generic": [] }
+  },
+  {
+    "constructor": "audi",
+    "model": "Q3",
+    "year": 2017,
+    "risks": { "exterior": ["RIGHT_FENDER", "UNKNOWN_DAMAGE"], "mechanical": ["CLUTCH_PROBLEM", "FUEL_SYSTEM"], "generic": [] }
+  },
+  {
+    "constructor": "audi",
+    "model": "A5",
+    "year": 2014,
+    "risks": { "exterior": ["RIGHT_FENDER", "REAR_BUMPER"], "mechanical": ["ENGINE_FAILURE"], "generic": [] }
+  },
+  { "constructor": "audi", "model": "A6", "year": 2018, "risks": { "exterior": [], "mechanical": ["FUEL_SYSTEM", "UNKNOWN_DAMAGE"], "generic": [] } },
+  { "constructor": "audi", "model": "S4", "year": 2017, "risks": { "exterior": [], "mechanical": ["FUEL_SYSTEM", "ENGINE_FAILURE"], "generic": [] } },
+  {
+    "constructor": "audi",
+    "model": "Q5",
+    "year": 2015,
+    "risks": { "exterior": [], "mechanical": ["ENGINE_FAILURE"], "generic": ["UNKNOWN_DAMAGE"] }
+  },
+  { "constructor": "audi", "model": "A1", "year": 2014, "risks": { "exterior": ["REAR_BUMPER"], "mechanical": ["CLUTCH_PROBLEM"], "generic": [] } },
+  {
+    "constructor": "audi",
+    "model": "A3",
+    "year": 2016,
+    "risks": { "exterior": ["RIGHT_FENDER"], "mechanical": ["CLUTCH_PROBLEM"], "generic": ["UNKNOWN_DAMAGE"] }
+  },
+  { "constructor": "audi", "model": "A1", "year": 2013, "risks": { "exterior": ["REAR_BUMPER"], "mechanical": ["ENGINE_FAILURE"], "generic": [] } },
+  {
+    "constructor": "audi",
+    "model": "A3",
+    "year": 2018,
+    "risks": { "exterior": ["RIGHT_FENDER", "UNKNOWN_DAMAGE", "REAR_BUMPER"], "mechanical": ["CLUTCH_PROBLEM"], "generic": [] }
+  },
+  { "constructor": "audi", "model": "A3", "year": 2013, "risks": { "exterior": ["RIGHT_FENDER", "REAR_BUMPER"], "mechanical": [], "generic": [] } },
+  {
+    "constructor": "audi",
+    "model": "A6",
+    "year": 2017,
+    "risks": { "exterior": ["RIGHT_FENDER", "REAR_BUMPER"], "mechanical": ["ENGINE_FAILURE"], "generic": [] }
+  },
+  {
+    "constructor": "audi",
+    "model": "Q2",
+    "year": 2019,
+    "risks": { "exterior": ["RIGHT_FENDER", "UNKNOWN_DAMAGE"], "mechanical": ["ENGINE_FAILURE"], "generic": [] }
+  },
+  {
+    "constructor": "audi",
+    "model": "Q3",
+    "year": 2015,
+    "risks": { "exterior": ["RIGHT_FENDER"], "mechanical": ["ENGINE_FAILURE", "UNKNOWN_DAMAGE", "FUEL_SYSTEM"], "generic": [] }
+  },
+  {
+    "constructor": "audi",
+    "model": "A4",
+    "year": 2019,
+    "risks": { "exterior": [], "mechanical": ["ENGINE_FAILURE", "CLUTCH_PROBLEM", "FUEL_SYSTEM"], "generic": [] }
+  },
+  {
+    "constructor": "audi",
+    "model": "Q3",
+    "year": 2019,
+    "risks": { "exterior": ["RIGHT_FENDER", "REAR_BUMPER"], "mechanical": [], "generic": ["UNKNOWN_DAMAGE"] }
+  },
+  {
+    "constructor": "audi",
+    "model": "Q2",
+    "year": 2017,
+    "risks": { "exterior": ["REAR_BUMPER"], "mechanical": [], "generic": ["UNKNOWN_DAMAGE", "UNKNOWN_DAMAGE"] }
+  },
+  { "constructor": "audi", "model": "A7", "year": 2014, "risks": { "exterior": [], "mechanical": ["FUEL_SYSTEM", "UNKNOWN_DAMAGE"], "generic": [] } },
+  {
+    "constructor": "audi",
+    "model": "A4",
+    "year": 2014,
+    "risks": { "exterior": ["RIGHT_FENDER", "REAR_BUMPER"], "mechanical": ["CLUTCH_PROBLEM", "FUEL_SYSTEM"], "generic": [] }
+  },
+  { "constructor": "audi", "model": "A5", "year": 2015, "risks": { "exterior": ["REAR_BUMPER"], "mechanical": ["CLUTCH_PROBLEM"], "generic": [] } },
+  {
+    "constructor": "audi",
+    "model": "Q3",
+    "year": 2018,
+    "risks": { "exterior": ["RIGHT_FENDER", "UNKNOWN_DAMAGE", "UNKNOWN_DAMAGE"], "mechanical": ["ENGINE_FAILURE"], "generic": [] }
+  },
+  {
+    "constructor": "audi",
+    "model": "Q2",
+    "year": 2018,
+    "risks": { "exterior": ["RIGHT_FENDER"], "mechanical": ["CLUTCH_PROBLEM", "ENGINE_FAILURE"], "generic": [] }
+  },
+  {
+    "constructor": "audi",
+    "model": "Q5",
+    "year": 2017,
+    "risks": { "exterior": ["RIGHT_FENDER", "UNKNOWN_DAMAGE"], "mechanical": ["CLUTCH_PROBLEM", "UNKNOWN_DAMAGE"], "generic": [] }
+  },
+  {
+    "constructor": "audi",
+    "model": "A4",
+    "year": 2013,
+    "risks": { "exterior": ["REAR_BUMPER"], "mechanical": ["CLUTCH_PROBLEM", "ENGINE_FAILURE"], "generic": ["UNKNOWN_DAMAGE"] }
+  },
+  { "constructor": "audi", "model": "A5", "year": 2018, "risks": { "exterior": ["REAR_BUMPER"], "mechanical": ["ENGINE_FAILURE"], "generic": [] } },
+  {
+    "constructor": "audi",
+    "model": "Q5",
+    "year": 2014,
+    "risks": { "exterior": ["REAR_BUMPER", "UNKNOWN_DAMAGE"], "mechanical": ["CLUTCH_PROBLEM"], "generic": [] }
+  },
+  {
+    "constructor": "audi",
+    "model": "A4",
+    "year": 2015,
+    "risks": { "exterior": ["RIGHT_FENDER", "REAR_BUMPER"], "mechanical": ["CLUTCH_PROBLEM", "FUEL_SYSTEM"], "generic": [] }
+  },
+  { "constructor": "audi", "model": "TT", "year": 2019, "risks": { "exterior": ["REAR_BUMPER"], "mechanical": ["CLUTCH_PROBLEM"], "generic": [] } },
+  {
+    "constructor": "audi",
+    "model": "A6",
+    "year": 2019,
+    "risks": { "exterior": [], "mechanical": ["ENGINE_FAILURE", "UNKNOWN_DAMAGE", "CLUTCH_PROBLEM"], "generic": [] }
+  },
+  {
+    "constructor": "audi",
+    "model": "Q7",
+    "year": 2020,
+    "risks": { "exterior": ["REAR_BUMPER", "UNKNOWN_DAMAGE"], "mechanical": ["CLUTCH_PROBLEM", "FUEL_SYSTEM"], "generic": [] }
+  },
+  {
+    "constructor": "audi",
+    "model": "RS6",
+    "year": 2016,
+    "risks": { "exterior": [], "mechanical": ["ENGINE_FAILURE", "CLUTCH_PROBLEM"], "generic": [] }
+  },
+  { "constructor": "audi", "model": "A7", "year": 2019, "risks": { "exterior": ["REAR_BUMPER"], "mechanical": ["ENGINE_FAILURE"], "generic": [] } },
+  {
+    "constructor": "audi",
+    "model": "Q5",
+    "year": 2019,
+    "risks": { "exterior": [], "mechanical": ["ENGINE_FAILURE", "UNKNOWN_DAMAGE"], "generic": [] }
+  },
+  {
+    "constructor": "audi",
+    "model": "A5",
+    "year": 2019,
+    "risks": { "exterior": ["REAR_BUMPER", "UNKNOWN_DAMAGE"], "mechanical": ["FUEL_SYSTEM", "CLUTCH_PROBLEM"], "generic": [] }
+  },
+  { "constructor": "audi", "model": "A1", "year": 2019, "risks": { "exterior": ["REAR_BUMPER"], "mechanical": ["CLUTCH_PROBLEM"], "generic": [] } },
+  {
+    "constructor": "audi",
+    "model": "Q5",
+    "year": 2020,
+    "risks": { "exterior": ["RIGHT_FENDER"], "mechanical": ["FUEL_SYSTEM", "ENGINE_FAILURE", "UNKNOWN_DAMAGE"], "generic": [] }
+  },
+  { "constructor": "audi", "model": "Q7", "year": 2019, "risks": { "exterior": ["RIGHT_FENDER"], "mechanical": [], "generic": ["UNKNOWN_DAMAGE"] } },
+  {
+    "constructor": "audi",
+    "model": "A4",
+    "year": 2020,
+    "risks": { "exterior": [], "mechanical": [], "generic": ["UNKNOWN_DAMAGE", "UNKNOWN_DAMAGE"] }
+  },
+  {
+    "constructor": "audi",
+    "model": "Q7",
+    "year": 2015,
+    "risks": { "exterior": ["REAR_BUMPER"], "mechanical": ["FUEL_SYSTEM", "ENGINE_FAILURE"], "generic": [] }
+  },
+  {
+    "constructor": "audi",
+    "model": "RS3",
+    "year": 2019,
+    "risks": { "exterior": ["RIGHT_FENDER"], "mechanical": ["FUEL_SYSTEM", "ENGINE_FAILURE"], "generic": [] }
+  },
+  { "constructor": "audi", "model": "A8", "year": 2017, "risks": { "exterior": [], "mechanical": ["FUEL_SYSTEM"], "generic": ["UNKNOWN_DAMAGE"] } },
+  {
+    "constructor": "audi",
+    "model": "A8",
+    "year": 2014,
+    "risks": { "exterior": ["REAR_BUMPER", "UNKNOWN_DAMAGE"], "mechanical": ["FUEL_SYSTEM", "ENGINE_FAILURE"], "generic": [] }
+  },
+  {
+    "constructor": "audi",
+    "model": "Q5",
+    "year": 2013,
+    "risks": { "exterior": ["REAR_BUMPER"], "mechanical": ["CLUTCH_PROBLEM"], "generic": ["UNKNOWN_DAMAGE"] }
+  },
+  {
+    "constructor": "audi",
+    "model": "TT",
+    "year": 2018,
+    "risks": { "exterior": ["RIGHT_FENDER"], "mechanical": ["ENGINE_FAILURE"], "generic": ["UNKNOWN_DAMAGE"] }
+  },
+  {
+    "constructor": "audi",
+    "model": "Q7",
+    "year": 2016,
+    "risks": { "exterior": ["REAR_BUMPER"], "mechanical": ["CLUTCH_PROBLEM"], "generic": ["UNKNOWN_DAMAGE"] }
+  },
+  {
+    "constructor": "audi",
+    "model": "RS6",
+    "year": 2015,
+    "risks": { "exterior": ["REAR_BUMPER", "UNKNOWN_DAMAGE"], "mechanical": [], "generic": [] }
+  },
+  {
+    "constructor": "audi",
+    "model": "Q8",
+    "year": 2018,
+    "risks": { "exterior": ["REAR_BUMPER"], "mechanical": ["FUEL_SYSTEM", "ENGINE_FAILURE", "UNKNOWN_DAMAGE"], "generic": [] }
+  },
+  {
+    "constructor": "audi",
+    "model": "A6",
+    "year": 2013,
+    "risks": { "exterior": [], "mechanical": ["CLUTCH_PROBLEM"], "generic": ["UNKNOWN_DAMAGE"] }
+  },
+  {
+    "constructor": "audi",
+    "model": "A5",
+    "year": 2016,
+    "risks": { "exterior": ["RIGHT_FENDER"], "mechanical": ["ENGINE_FAILURE"], "generic": ["UNKNOWN_DAMAGE", "UNKNOWN_DAMAGE"] }
+  },
+  {
+    "constructor": "audi",
+    "model": "TT",
+    "year": 2016,
+    "risks": { "exterior": ["RIGHT_FENDER", "UNKNOWN_DAMAGE", "UNKNOWN_DAMAGE"], "mechanical": ["ENGINE_FAILURE"], "generic": [] }
+  },
+  {
+    "constructor": "audi",
+    "model": "A3",
+    "year": 2020,
+    "risks": { "exterior": ["REAR_BUMPER"], "mechanical": ["CLUTCH_PROBLEM", "ENGINE_FAILURE", "UNKNOWN_DAMAGE"], "generic": [] }
+  },
+  { "constructor": "audi", "model": "TT", "year": 2017, "risks": { "exterior": ["REAR_BUMPER"], "mechanical": ["ENGINE_FAILURE"], "generic": [] } },
+  {
+    "constructor": "audi",
+    "model": "RS4",
+    "year": 2013,
+    "risks": { "exterior": [], "mechanical": ["FUEL_SYSTEM", "CLUTCH_PROBLEM", "UNKNOWN_DAMAGE"], "generic": [] }
+  },
+  { "constructor": "audi", "model": "Q8", "year": 2019, "risks": { "exterior": [], "mechanical": ["FUEL_SYSTEM", "CLUTCH_PROBLEM"], "generic": [] } },
+  { "constructor": "audi", "model": "A5", "year": 2020, "risks": { "exterior": [], "mechanical": ["ENGINE_FAILURE", "FUEL_SYSTEM"], "generic": [] } },
+  {
+    "constructor": "audi",
+    "model": "Q3",
+    "year": 2020,
+    "risks": { "exterior": ["RIGHT_FENDER"], "mechanical": ["ENGINE_FAILURE", "FUEL_SYSTEM"], "generic": [] }
+  },
+  {
+    "constructor": "audi",
+    "model": "Q5",
+    "year": 2018,
+    "risks": { "exterior": ["RIGHT_FENDER", "REAR_BUMPER"], "mechanical": ["ENGINE_FAILURE", "UNKNOWN_DAMAGE"], "generic": [] }
+  },
+  {
+    "constructor": "audi",
+    "model": "A8",
+    "year": 2018,
+    "risks": { "exterior": ["RIGHT_FENDER"], "mechanical": [], "generic": ["UNKNOWN_DAMAGE", "UNKNOWN_DAMAGE"] }
+  },
+  {
+    "constructor": "audi",
+    "model": "Q7",
+    "year": 2018,
+    "risks": { "exterior": [], "mechanical": ["ENGINE_FAILURE", "UNKNOWN_DAMAGE", "FUEL_SYSTEM"], "generic": [] }
+  },
+  { "constructor": "audi", "model": "RS6", "year": 2017, "risks": { "exterior": ["REAR_BUMPER"], "mechanical": [], "generic": ["UNKNOWN_DAMAGE"] } },
+  {
+    "constructor": "audi",
+    "model": "A8",
+    "year": 2019,
+    "risks": { "exterior": ["REAR_BUMPER"], "mechanical": ["ENGINE_FAILURE", "UNKNOWN_DAMAGE", "FUEL_SYSTEM"], "generic": [] }
+  },
+  {
+    "constructor": "audi",
+    "model": "Q7",
+    "year": 2017,
+    "risks": { "exterior": ["RIGHT_FENDER"], "mechanical": ["CLUTCH_PROBLEM", "ENGINE_FAILURE", "FUEL_SYSTEM"], "generic": [] }
+  },
+  {
+    "constructor": "audi",
+    "model": "RS5",
+    "year": 2019,
+    "risks": { "exterior": [], "mechanical": ["CLUTCH_PROBLEM", "FUEL_SYSTEM"], "generic": ["UNKNOWN_DAMAGE"] }
+  },
+  { "constructor": "audi", "model": "A7", "year": 2015, "risks": { "exterior": ["REAR_BUMPER"], "mechanical": ["FUEL_SYSTEM"], "generic": [] } },
+  {
+    "constructor": "audi",
+    "model": "RS3",
+    "year": 2018,
+    "risks": { "exterior": ["RIGHT_FENDER", "REAR_BUMPER"], "mechanical": ["FUEL_SYSTEM"], "generic": [] }
+  },
+  { "constructor": "audi", "model": "Q2", "year": 2016, "risks": { "exterior": ["REAR_BUMPER"], "mechanical": [], "generic": ["UNKNOWN_DAMAGE"] } },
+  {
+    "constructor": "audi",
+    "model": "A7",
+    "year": 2018,
+    "risks": { "exterior": ["REAR_BUMPER", "UNKNOWN_DAMAGE", "UNKNOWN_DAMAGE"], "mechanical": [], "generic": [] }
+  },
+  {
+    "constructor": "audi",
+    "model": "A8",
+    "year": 2020,
+    "risks": { "exterior": [], "mechanical": ["FUEL_SYSTEM", "UNKNOWN_DAMAGE", "CLUTCH_PROBLEM", "ENGINE_FAILURE"], "generic": [] }
+  },
+  {
+    "constructor": "audi",
+    "model": "RS4",
+    "year": 2020,
+    "risks": { "exterior": ["RIGHT_FENDER"], "mechanical": ["ENGINE_FAILURE", "UNKNOWN_DAMAGE", "CLUTCH_PROBLEM"], "generic": [] }
+  },
+  {
+    "constructor": "audi",
+    "model": "A7",
+    "year": 2020,
+    "risks": { "exterior": [], "mechanical": ["FUEL_SYSTEM", "CLUTCH_PROBLEM", "ENGINE_FAILURE"], "generic": [] }
+  },
+  { "constructor": "audi", "model": "RS4", "year": 2019, "risks": { "exterior": [], "mechanical": ["FUEL_SYSTEM"], "generic": ["UNKNOWN_DAMAGE"] } },
+  {
+    "constructor": "audi",
+    "model": "TT",
+    "year": 2015,
+    "risks": { "exterior": [], "mechanical": ["FUEL_SYSTEM", "UNKNOWN_DAMAGE", "CLUTCH_PROBLEM"], "generic": ["UNKNOWN_DAMAGE"] }
+  },
+  { "constructor": "audi", "model": "Q2", "year": 2020, "risks": { "exterior": [], "mechanical": ["ENGINE_FAILURE", "FUEL_SYSTEM"], "generic": [] } },
+  { "constructor": "audi", "model": "A6", "year": 2014, "risks": { "exterior": ["REAR_BUMPER"], "mechanical": ["ENGINE_FAILURE"], "generic": [] } },
+  {
+    "constructor": "audi",
+    "model": "Q3",
+    "year": 2013,
+    "risks": { "exterior": ["RIGHT_FENDER", "UNKNOWN_DAMAGE", "UNKNOWN_DAMAGE"], "mechanical": ["ENGINE_FAILURE"], "generic": [] }
+  },
+  {
+    "constructor": "audi",
+    "model": "A7",
+    "year": 2017,
+    "risks": { "exterior": ["RIGHT_FENDER", "REAR_BUMPER"], "mechanical": ["FUEL_SYSTEM", "ENGINE_FAILURE"], "generic": [] }
+  },
+  { "constructor": "audi", "model": "A1", "year": 2020, "risks": { "exterior": ["RIGHT_FENDER"], "mechanical": ["CLUTCH_PROBLEM"], "generic": [] } },
+  { "constructor": "audi", "model": "A8", "year": 2016, "risks": { "exterior": ["REAR_BUMPER"], "mechanical": ["FUEL_SYSTEM"], "generic": [] } },
+  {
+    "constructor": "audi",
+    "model": "RS3",
+    "year": 2016,
+    "risks": { "exterior": ["REAR_BUMPER", "UNKNOWN_DAMAGE", "UNKNOWN_DAMAGE"], "mechanical": ["ENGINE_FAILURE"], "generic": [] }
+  },
+  {
+    "constructor": "audi",
+    "model": "A8",
+    "year": 2015,
+    "risks": { "exterior": ["RIGHT_FENDER", "UNKNOWN_DAMAGE", "REAR_BUMPER"], "mechanical": ["ENGINE_FAILURE"], "generic": [] }
+  },
+  {
+    "constructor": "audi",
+    "model": "Q7",
+    "year": 2014,
+    "risks": { "exterior": ["REAR_BUMPER", "UNKNOWN_DAMAGE", "UNKNOWN_DAMAGE"], "mechanical": ["ENGINE_FAILURE"], "generic": [] }
+  },
+  {
+    "constructor": "audi",
+    "model": "TT",
+    "year": 2020,
+    "risks": { "exterior": ["RIGHT_FENDER", "REAR_BUMPER"], "mechanical": ["FUEL_SYSTEM"], "generic": ["UNKNOWN_DAMAGE"] }
+  },
+  {
+    "constructor": "audi",
+    "model": "Q8",
+    "year": 2020,
+    "risks": { "exterior": ["RIGHT_FENDER", "UNKNOWN_DAMAGE", "UNKNOWN_DAMAGE"], "mechanical": [], "generic": [] }
+  },
+  {
+    "constructor": "audi",
+    "model": "RS5",
+    "year": 2017,
+    "risks": { "exterior": [], "mechanical": ["FUEL_SYSTEM", "ENGINE_FAILURE", "UNKNOWN_DAMAGE"], "generic": [] }
+  },
+  {
+    "constructor": "audi",
+    "model": "A5",
+    "year": 2013,
+    "risks": { "exterior": ["REAR_BUMPER"], "mechanical": ["ENGINE_FAILURE", "UNKNOWN_DAMAGE"], "generic": ["UNKNOWN_DAMAGE"] }
+  },
+  {
+    "constructor": "audi",
+    "model": "A7",
+    "year": 2016,
+    "risks": { "exterior": [], "mechanical": ["ENGINE_FAILURE", "UNKNOWN_DAMAGE", "UNKNOWN_DAMAGE"], "generic": [] }
+  },
+  {
+    "constructor": "audi",
+    "model": "RS3",
+    "year": 2017,
+    "risks": { "exterior": ["REAR_BUMPER"], "mechanical": ["FUEL_SYSTEM", "UNKNOWN_DAMAGE", "CLUTCH_PROBLEM"], "generic": [] }
+  },
+  {
+    "constructor": "audi",
+    "model": "TT",
+    "year": 2014,
+    "risks": { "exterior": [], "mechanical": ["ENGINE_FAILURE", "UNKNOWN_DAMAGE", "FUEL_SYSTEM"], "generic": [] }
+  },
+  {
+    "constructor": "audi",
+    "model": "R8",
+    "year": 2019,
+    "risks": { "exterior": ["RIGHT_FENDER", "REAR_BUMPER"], "mechanical": ["CLUTCH_PROBLEM", "FUEL_SYSTEM"], "generic": [] }
+  },
+  { "constructor": "audi", "model": "TT", "year": 2013, "risks": { "exterior": ["REAR_BUMPER"], "mechanical": ["CLUTCH_PROBLEM"], "generic": [] } },
+  { "constructor": "audi", "model": "RS3", "year": 2015, "risks": { "exterior": ["REAR_BUMPER"], "mechanical": ["FUEL_SYSTEM"], "generic": [] } },
+  { "constructor": "audi", "model": "A6", "year": 2020, "risks": { "exterior": ["RIGHT_FENDER"], "mechanical": [], "generic": ["UNKNOWN_DAMAGE"] } },
+  {
+    "constructor": "audi",
+    "model": "R8",
+    "year": 2013,
+    "risks": { "exterior": [], "mechanical": ["ENGINE_FAILURE"], "generic": ["UNKNOWN_DAMAGE", "UNKNOWN_DAMAGE"] }
+  },
+  {
+    "constructor": "audi",
+    "model": "Q7",
+    "year": 2013,
+    "risks": { "exterior": ["RIGHT_FENDER"], "mechanical": ["CLUTCH_PROBLEM", "UNKNOWN_DAMAGE", "UNKNOWN_DAMAGE"], "generic": [] }
+  },
+  {
+    "constructor": "audi",
+    "model": "RS4",
+    "year": 2018,
+    "risks": { "exterior": ["RIGHT_FENDER", "UNKNOWN_DAMAGE"], "mechanical": ["ENGINE_FAILURE", "CLUTCH_PROBLEM"], "generic": [] }
+  },
+  { "constructor": "audi", "model": "RS5", "year": 2014, "risks": { "exterior": ["RIGHT_FENDER"], "mechanical": ["FUEL_SYSTEM"], "generic": [] } },
+  {
+    "constructor": "audi",
+    "model": "R8",
+    "year": 2020,
+    "risks": { "exterior": ["RIGHT_FENDER"], "mechanical": ["ENGINE_FAILURE", "FUEL_SYSTEM"], "generic": ["UNKNOWN_DAMAGE"] }
+  },
+  {
+    "constructor": "audi",
+    "model": "A8",
+    "year": 2013,
+    "risks": { "exterior": [], "mechanical": ["CLUTCH_PROBLEM", "ENGINE_FAILURE", "FUEL_SYSTEM", "UNKNOWN_DAMAGE"], "generic": [] }
+  },
+  {
+    "constructor": "audi",
+    "model": "RS6",
+    "year": 2020,
+    "risks": { "exterior": ["REAR_BUMPER"], "mechanical": ["CLUTCH_PROBLEM", "ENGINE_FAILURE"], "generic": ["UNKNOWN_DAMAGE"] }
+  },
+  {
+    "constructor": "audi",
+    "model": "RS3",
+    "year": 2013,
+    "risks": { "exterior": ["REAR_BUMPER"], "mechanical": ["ENGINE_FAILURE", "CLUTCH_PROBLEM"], "generic": ["UNKNOWN_DAMAGE"] }
+  },
+  { "constructor": "audi", "model": "RS4", "year": 2014, "risks": { "exterior": ["REAR_BUMPER"], "mechanical": [], "generic": ["UNKNOWN_DAMAGE"] } },
+  {
+    "constructor": "audi",
+    "model": "RS6",
+    "year": 2014,
+    "risks": { "exterior": ["RIGHT_FENDER"], "mechanical": ["CLUTCH_PROBLEM", "UNKNOWN_DAMAGE", "ENGINE_FAILURE"], "generic": [] }
+  },
+  {
+    "constructor": "audi",
+    "model": "R8",
+    "year": 2018,
+    "risks": { "exterior": ["RIGHT_FENDER"], "mechanical": ["ENGINE_FAILURE", "UNKNOWN_DAMAGE"], "generic": [] }
+  },
+  {
+    "constructor": "audi",
+    "model": "R8",
+    "year": 2014,
+    "risks": { "exterior": ["RIGHT_FENDER", "UNKNOWN_DAMAGE"], "mechanical": [], "generic": [] }
+  },
+  { "constructor": "audi", "model": "RS5", "year": 2018, "risks": { "exterior": ["RIGHT_FENDER"], "mechanical": ["ENGINE_FAILURE"], "generic": [] } },
+  {
+    "constructor": "audi",
+    "model": "RS4",
+    "year": 2015,
+    "risks": { "exterior": ["RIGHT_FENDER"], "mechanical": ["ENGINE_FAILURE", "CLUTCH_PROBLEM", "UNKNOWN_DAMAGE"], "generic": [] }
+  },
+  {
+    "constructor": "audi",
+    "model": "R8",
+    "year": 2016,
+    "risks": { "exterior": ["RIGHT_FENDER"], "mechanical": ["FUEL_SYSTEM"], "generic": ["UNKNOWN_DAMAGE", "UNKNOWN_DAMAGE"] }
+  },
+  {
+    "constructor": "audi",
+    "model": "S4",
+    "year": 2004,
+    "risks": { "exterior": ["REAR_BUMPER", "UNKNOWN_DAMAGE"], "mechanical": ["FUEL_SYSTEM", "CLUTCH_PROBLEM"], "generic": [] }
+  },
+  {
+    "constructor": "audi",
+    "model": "A3",
+    "year": 2009,
+    "risks": { "exterior": ["REAR_BUMPER"], "mechanical": ["ENGINE_FAILURE", "FUEL_SYSTEM"], "generic": [] }
+  },
+  {
+    "constructor": "audi",
+    "model": "Q3",
+    "year": 2012,
+    "risks": { "exterior": [], "mechanical": ["ENGINE_FAILURE", "CLUTCH_PROBLEM", "UNKNOWN_DAMAGE", "FUEL_SYSTEM"], "generic": [] }
+  },
+  {
+    "constructor": "audi",
+    "model": "A5",
+    "year": 2010,
+    "risks": { "exterior": ["REAR_BUMPER"], "mechanical": ["CLUTCH_PROBLEM"], "generic": ["UNKNOWN_DAMAGE"] }
+  },
+  {
+    "constructor": "audi",
+    "model": "A3",
+    "year": 2012,
+    "risks": { "exterior": ["RIGHT_FENDER", "REAR_BUMPER"], "mechanical": ["CLUTCH_PROBLEM"], "generic": [] }
+  },
+  {
+    "constructor": "audi",
+    "model": "Q5",
+    "year": 2010,
+    "risks": { "exterior": [], "mechanical": ["ENGINE_FAILURE", "FUEL_SYSTEM"], "generic": ["UNKNOWN_DAMAGE"] }
+  },
+  {
+    "constructor": "audi",
+    "model": "A3",
+    "year": 2010,
+    "risks": { "exterior": ["REAR_BUMPER"], "mechanical": ["ENGINE_FAILURE", "CLUTCH_PROBLEM"], "generic": [] }
+  },
+  {
+    "constructor": "audi",
+    "model": "A7",
+    "year": 2013,
+    "risks": { "exterior": ["REAR_BUMPER"], "mechanical": ["ENGINE_FAILURE", "UNKNOWN_DAMAGE", "UNKNOWN_DAMAGE"], "generic": [] }
+  },
+  {
+    "constructor": "audi",
+    "model": "A6",
+    "year": 2010,
+    "risks": { "exterior": [], "mechanical": ["CLUTCH_PROBLEM", "UNKNOWN_DAMAGE"], "generic": [] }
+  },
+  { "constructor": "audi", "model": "A4", "year": 2007, "risks": { "exterior": ["REAR_BUMPER"], "mechanical": [], "generic": ["UNKNOWN_DAMAGE"] } },
+  {
+    "constructor": "audi",
+    "model": "A4",
+    "year": 2012,
+    "risks": { "exterior": [], "mechanical": ["FUEL_SYSTEM", "UNKNOWN_DAMAGE", "CLUTCH_PROBLEM"], "generic": [] }
+  },
+  {
+    "constructor": "audi",
+    "model": "TT",
+    "year": 2010,
+    "risks": { "exterior": ["RIGHT_FENDER", "UNKNOWN_DAMAGE"], "mechanical": ["ENGINE_FAILURE", "UNKNOWN_DAMAGE"], "generic": [] }
+  },
+  {
+    "constructor": "audi",
+    "model": "A8",
+    "year": 2011,
+    "risks": { "exterior": ["RIGHT_FENDER"], "mechanical": ["FUEL_SYSTEM", "ENGINE_FAILURE"], "generic": ["UNKNOWN_DAMAGE"] }
+  },
+  {
+    "constructor": "audi",
+    "model": "A4",
+    "year": 2009,
+    "risks": { "exterior": [], "mechanical": ["ENGINE_FAILURE", "UNKNOWN_DAMAGE", "FUEL_SYSTEM"], "generic": [] }
+  },
+  {
+    "constructor": "audi",
+    "model": "A5",
+    "year": 2008,
+    "risks": { "exterior": ["REAR_BUMPER"], "mechanical": ["CLUTCH_PROBLEM", "UNKNOWN_DAMAGE", "UNKNOWN_DAMAGE"], "generic": [] }
+  },
+  {
+    "constructor": "audi",
+    "model": "SQ5",
+    "year": 2016,
+    "risks": { "exterior": [], "mechanical": ["FUEL_SYSTEM", "ENGINE_FAILURE"], "generic": [] }
+  },
+  {
+    "constructor": "audi",
+    "model": "S8",
+    "year": 2017,
+    "risks": { "exterior": ["RIGHT_FENDER"], "mechanical": ["ENGINE_FAILURE", "UNKNOWN_DAMAGE"], "generic": [] }
+  },
+  { "constructor": "audi", "model": "S4", "year": 2019, "risks": { "exterior": ["REAR_BUMPER", "RIGHT_FENDER"], "mechanical": [], "generic": [] } },
+  { "constructor": "audi", "model": "TT", "year": 2007, "risks": { "exterior": ["REAR_BUMPER"], "mechanical": [], "generic": ["UNKNOWN_DAMAGE"] } },
+  {
+    "constructor": "audi",
+    "model": "A3",
+    "year": 2007,
+    "risks": { "exterior": ["RIGHT_FENDER"], "mechanical": ["CLUTCH_PROBLEM", "ENGINE_FAILURE", "FUEL_SYSTEM"], "generic": [] }
+  },
+  { "constructor": "audi", "model": "Q5", "year": 2012, "risks": { "exterior": ["REAR_BUMPER"], "mechanical": ["ENGINE_FAILURE"], "generic": [] } },
+  { "constructor": "audi", "model": "A5", "year": 2011, "risks": { "exterior": ["RIGHT_FENDER"], "mechanical": ["FUEL_SYSTEM"], "generic": [] } },
+  {
+    "constructor": "audi",
+    "model": "SQ7",
+    "year": 2017,
+    "risks": { "exterior": ["RIGHT_FENDER", "UNKNOWN_DAMAGE"], "mechanical": ["CLUTCH_PROBLEM"], "generic": ["UNKNOWN_DAMAGE"] }
+  },
+  { "constructor": "audi", "model": "S3", "year": 2017, "risks": { "exterior": [], "mechanical": ["FUEL_SYSTEM", "UNKNOWN_DAMAGE"], "generic": [] } },
+  {
+    "constructor": "audi",
+    "model": "SQ7",
+    "year": 2016,
+    "risks": { "exterior": ["REAR_BUMPER"], "mechanical": ["FUEL_SYSTEM", "UNKNOWN_DAMAGE"], "generic": ["UNKNOWN_DAMAGE"] }
+  },
+  { "constructor": "audi", "model": "S4", "year": 2020, "risks": { "exterior": ["REAR_BUMPER"], "mechanical": ["FUEL_SYSTEM"], "generic": [] } },
+  {
+    "constructor": "audi",
+    "model": "SQ5",
+    "year": 2019,
+    "risks": { "exterior": ["RIGHT_FENDER", "UNKNOWN_DAMAGE", "UNKNOWN_DAMAGE"], "mechanical": ["CLUTCH_PROBLEM"], "generic": [] }
+  },
+  {
+    "constructor": "audi",
+    "model": "SQ5",
+    "year": 2017,
+    "risks": { "exterior": ["RIGHT_FENDER"], "mechanical": ["CLUTCH_PROBLEM", "UNKNOWN_DAMAGE"], "generic": [] }
+  },
+  {
+    "constructor": "audi",
+    "model": "SQ5",
+    "year": 2020,
+    "risks": { "exterior": [], "mechanical": ["ENGINE_FAILURE", "CLUTCH_PROBLEM"], "generic": [] }
+  },
+  { "constructor": "audi", "model": "A5", "year": 2012, "risks": { "exterior": [], "mechanical": ["FUEL_SYSTEM"], "generic": ["UNKNOWN_DAMAGE"] } },
+  {
+    "constructor": "audi",
+    "model": "A6",
+    "year": 2003,
+    "risks": { "exterior": ["RIGHT_FENDER"], "mechanical": ["CLUTCH_PROBLEM", "UNKNOWN_DAMAGE", "FUEL_SYSTEM"], "generic": [] }
+  },
+  {
+    "constructor": "audi",
+    "model": "TT",
+    "year": 2009,
+    "risks": { "exterior": ["RIGHT_FENDER", "UNKNOWN_DAMAGE"], "mechanical": [], "generic": [] }
+  },
+  {
+    "constructor": "audi",
+    "model": "A3",
+    "year": 2005,
+    "risks": { "exterior": ["RIGHT_FENDER"], "mechanical": ["FUEL_SYSTEM", "ENGINE_FAILURE", "UNKNOWN_DAMAGE"], "generic": [] }
+  },
+  {
+    "constructor": "audi",
+    "model": "SQ5",
+    "year": 2015,
+    "risks": { "exterior": ["RIGHT_FENDER"], "mechanical": ["ENGINE_FAILURE", "UNKNOWN_DAMAGE"], "generic": [] }
+  },
+  { "constructor": "audi", "model": "Q5", "year": 2011, "risks": { "exterior": [], "mechanical": ["FUEL_SYSTEM", "UNKNOWN_DAMAGE"], "generic": [] } },
+  {
+    "constructor": "audi",
+    "model": "S3",
+    "year": 2015,
+    "risks": { "exterior": ["RIGHT_FENDER", "REAR_BUMPER"], "mechanical": ["FUEL_SYSTEM"], "generic": [] }
+  },
+  {
+    "constructor": "audi",
+    "model": "A4",
+    "year": 2008,
+    "risks": { "exterior": ["RIGHT_FENDER"], "mechanical": ["ENGINE_FAILURE"], "generic": ["UNKNOWN_DAMAGE", "UNKNOWN_DAMAGE"] }
+  },
+  {
+    "constructor": "audi",
+    "model": "A6",
+    "year": 2011,
+    "risks": { "exterior": [], "mechanical": ["ENGINE_FAILURE", "FUEL_SYSTEM"], "generic": ["UNKNOWN_DAMAGE"] }
+  },
+  {
+    "constructor": "audi",
+    "model": "RS5",
+    "year": 2015,
+    "risks": { "exterior": ["RIGHT_FENDER", "UNKNOWN_DAMAGE"], "mechanical": ["ENGINE_FAILURE", "CLUTCH_PROBLEM"], "generic": [] }
+  },
+  {
+    "constructor": "audi",
+    "model": "S3",
+    "year": 2014,
+    "risks": { "exterior": ["RIGHT_FENDER", "REAR_BUMPER", "UNKNOWN_DAMAGE"], "mechanical": [], "generic": [] }
+  },
+  {
+    "constructor": "audi",
+    "model": "TT",
+    "year": 2011,
+    "risks": { "exterior": ["REAR_BUMPER"], "mechanical": ["FUEL_SYSTEM", "ENGINE_FAILURE"], "generic": [] }
+  },
+  {
+    "constructor": "audi",
+    "model": "S3",
+    "year": 2016,
+    "risks": { "exterior": ["RIGHT_FENDER"], "mechanical": ["FUEL_SYSTEM", "ENGINE_FAILURE"], "generic": ["UNKNOWN_DAMAGE"] }
+  },
+  {
+    "constructor": "audi",
+    "model": "A3",
+    "year": 2011,
+    "risks": { "exterior": ["RIGHT_FENDER", "REAR_BUMPER"], "mechanical": [], "generic": ["UNKNOWN_DAMAGE"] }
+  },
+  { "constructor": "audi", "model": "A1", "year": 2012, "risks": { "exterior": ["RIGHT_FENDER"], "mechanical": [], "generic": ["UNKNOWN_DAMAGE"] } },
+  {
+    "constructor": "audi",
+    "model": "Q7",
+    "year": 2012,
+    "risks": { "exterior": ["REAR_BUMPER"], "mechanical": ["CLUTCH_PROBLEM"], "generic": ["UNKNOWN_DAMAGE", "UNKNOWN_DAMAGE"] }
+  },
+  {
+    "constructor": "audi",
+    "model": "A6",
+    "year": 2012,
+    "risks": { "exterior": ["RIGHT_FENDER", "REAR_BUMPER", "UNKNOWN_DAMAGE"], "mechanical": [], "generic": ["UNKNOWN_DAMAGE"] }
+  },
+  {
+    "constructor": "audi",
+    "model": "TT",
+    "year": 2012,
+    "risks": { "exterior": [], "mechanical": ["ENGINE_FAILURE", "UNKNOWN_DAMAGE"], "generic": [] }
+  },
+  {
+    "constructor": "audi",
+    "model": "A8",
+    "year": 2012,
+    "risks": { "exterior": ["REAR_BUMPER", "UNKNOWN_DAMAGE"], "mechanical": [], "generic": ["UNKNOWN_DAMAGE"] }
+  },
+  {
+    "constructor": "audi",
+    "model": "A7",
+    "year": 2011,
+    "risks": { "exterior": ["REAR_BUMPER"], "mechanical": ["CLUTCH_PROBLEM", "FUEL_SYSTEM"], "generic": [] }
+  },
+  { "constructor": "audi", "model": "A4", "year": 2011, "risks": { "exterior": ["RIGHT_FENDER"], "mechanical": ["CLUTCH_PROBLEM"], "generic": [] } },
+  {
+    "constructor": "audi",
+    "model": "SQ5",
+    "year": 2013,
+    "risks": { "exterior": ["RIGHT_FENDER"], "mechanical": ["ENGINE_FAILURE", "FUEL_SYSTEM"], "generic": ["UNKNOWN_DAMAGE"] }
+  },
+  {
+    "constructor": "audi",
+    "model": "A3",
+    "year": 2004,
+    "risks": { "exterior": ["RIGHT_FENDER"], "mechanical": ["ENGINE_FAILURE"], "generic": ["UNKNOWN_DAMAGE", "UNKNOWN_DAMAGE"] }
+  },
+  {
+    "constructor": "audi",
+    "model": "Q3",
+    "year": 2011,
+    "risks": { "exterior": ["RIGHT_FENDER"], "mechanical": ["ENGINE_FAILURE", "FUEL_SYSTEM"], "generic": ["UNKNOWN_DAMAGE"] }
+  },
+  {
+    "constructor": "audi",
+    "model": "Q5",
+    "year": 2009,
+    "risks": { "exterior": ["RIGHT_FENDER"], "mechanical": ["FUEL_SYSTEM", "CLUTCH_PROBLEM"], "generic": ["UNKNOWN_DAMAGE"] }
+  },
+  {
+    "constructor": "audi",
+    "model": "A3",
+    "year": 2008,
+    "risks": { "exterior": [], "mechanical": ["ENGINE_FAILURE", "UNKNOWN_DAMAGE"], "generic": [] }
+  },
+  {
+    "constructor": "audi",
+    "model": "SQ5",
+    "year": 2014,
+    "risks": { "exterior": ["REAR_BUMPER"], "mechanical": ["CLUTCH_PROBLEM"], "generic": ["UNKNOWN_DAMAGE"] }
+  },
+  { "constructor": "audi", "model": "A6", "year": 2004, "risks": { "exterior": [], "mechanical": ["FUEL_SYSTEM"], "generic": ["UNKNOWN_DAMAGE"] } },
+  {
+    "constructor": "audi",
+    "model": "R8",
+    "year": 2008,
+    "risks": { "exterior": [], "mechanical": ["ENGINE_FAILURE"], "generic": ["UNKNOWN_DAMAGE"] }
+  },
+  {
+    "constructor": "audi",
+    "model": "RS3",
+    "year": 2020,
+    "risks": { "exterior": ["RIGHT_FENDER"], "mechanical": ["ENGINE_FAILURE", "FUEL_SYSTEM"], "generic": [] }
+  },
+  {
+    "constructor": "audi",
+    "model": "Q7",
+    "year": 2011,
+    "risks": { "exterior": ["REAR_BUMPER"], "mechanical": ["ENGINE_FAILURE", "UNKNOWN_DAMAGE", "CLUTCH_PROBLEM"], "generic": [] }
+  },
+  {
+    "constructor": "audi",
+    "model": "TT",
+    "year": 2002,
+    "risks": { "exterior": ["REAR_BUMPER", "RIGHT_FENDER", "UNKNOWN_DAMAGE"], "mechanical": [], "generic": [] }
+  },
+  {
+    "constructor": "audi",
+    "model": "A4",
+    "year": 2005,
+    "risks": { "exterior": [], "mechanical": ["ENGINE_FAILURE", "UNKNOWN_DAMAGE"], "generic": [] }
+  },
+  {
+    "constructor": "audi",
+    "model": "A1",
+    "year": 2011,
+    "risks": { "exterior": [], "mechanical": ["FUEL_SYSTEM", "UNKNOWN_DAMAGE", "CLUTCH_PROBLEM"], "generic": [] }
+  },
+  { "constructor": "audi", "model": "A4", "year": 2010, "risks": { "exterior": ["REAR_BUMPER"], "mechanical": ["FUEL_SYSTEM"], "generic": [] } },
+  { "constructor": "audi", "model": "A5", "year": 2009, "risks": { "exterior": ["RIGHT_FENDER"], "mechanical": ["FUEL_SYSTEM"], "generic": [] } },
+  {
+    "constructor": "audi",
+    "model": "A4",
+    "year": 2006,
+    "risks": { "exterior": ["REAR_BUMPER", "RIGHT_FENDER"], "mechanical": ["FUEL_SYSTEM"], "generic": [] }
+  },
+  {
+    "constructor": "audi",
+    "model": "Q5",
+    "year": 2008,
+    "risks": { "exterior": ["REAR_BUMPER"], "mechanical": ["CLUTCH_PROBLEM"], "generic": ["UNKNOWN_DAMAGE"] }
+  },
+  { "constructor": "audi", "model": "TT", "year": 2008, "risks": { "exterior": ["RIGHT_FENDER"], "mechanical": [], "generic": ["UNKNOWN_DAMAGE"] } },
+  {
+    "constructor": "audi",
+    "model": "S8",
+    "year": 2015,
+    "risks": { "exterior": ["REAR_BUMPER"], "mechanical": ["FUEL_SYSTEM", "UNKNOWN_DAMAGE"], "generic": [] }
+  },
+  { "constructor": "audi", "model": "A3", "year": 1998, "risks": { "exterior": ["RIGHT_FENDER"], "mechanical": ["ENGINE_FAILURE"], "generic": [] } },
+  {
+    "constructor": "audi",
+    "model": "S5",
+    "year": 2013,
+    "risks": { "exterior": ["RIGHT_FENDER"], "mechanical": ["FUEL_SYSTEM", "CLUTCH_PROBLEM"], "generic": [] }
+  },
+  {
+    "constructor": "audi",
+    "model": "TT",
+    "year": 2003,
+    "risks": { "exterior": ["REAR_BUMPER"], "mechanical": ["CLUTCH_PROBLEM", "UNKNOWN_DAMAGE", "UNKNOWN_DAMAGE"], "generic": [] }
+  },
+  {
+    "constructor": "audi",
+    "model": "A6",
+    "year": 2008,
+    "risks": { "exterior": [], "mechanical": ["CLUTCH_PROBLEM"], "generic": ["UNKNOWN_DAMAGE"] }
+  },
+  { "constructor": "audi", "model": "S4", "year": 2007, "risks": { "exterior": ["RIGHT_FENDER"], "mechanical": [], "generic": ["UNKNOWN_DAMAGE"] } },
+  {
+    "constructor": "audi",
+    "model": "A6",
+    "year": 2007,
+    "risks": { "exterior": ["REAR_BUMPER"], "mechanical": ["FUEL_SYSTEM", "ENGINE_FAILURE"], "generic": ["UNKNOWN_DAMAGE"] }
+  },
+  {
+    "constructor": "audi",
+    "model": "R8",
+    "year": 2015,
+    "risks": { "exterior": [], "mechanical": ["ENGINE_FAILURE"], "generic": ["UNKNOWN_DAMAGE", "UNKNOWN_DAMAGE"] }
+  },
+  { "constructor": "audi", "model": "S3", "year": 2018, "risks": { "exterior": ["REAR_BUMPER", "UNKNOWN_DAMAGE"], "mechanical": [], "generic": [] } },
+  { "constructor": "audi", "model": "TT", "year": 2004, "risks": { "exterior": ["REAR_BUMPER"], "mechanical": [], "generic": ["UNKNOWN_DAMAGE"] } },
+  {
+    "constructor": "audi",
+    "model": "S4",
+    "year": 2005,
+    "risks": { "exterior": ["REAR_BUMPER"], "mechanical": ["ENGINE_FAILURE", "CLUTCH_PROBLEM"], "generic": ["UNKNOWN_DAMAGE"] }
+  },
+  {
+    "constructor": "audi",
+    "model": "S5",
+    "year": 2011,
+    "risks": { "exterior": ["RIGHT_FENDER"], "mechanical": ["FUEL_SYSTEM", "UNKNOWN_DAMAGE", "ENGINE_FAILURE"], "generic": [] }
+  },
+  {
+    "constructor": "audi",
+    "model": "S3",
+    "year": 2003,
+    "risks": { "exterior": [], "mechanical": ["FUEL_SYSTEM", "UNKNOWN_DAMAGE", "CLUTCH_PROBLEM"], "generic": [] }
+  },
+  { "constructor": "audi", "model": "SQ5", "year": 2018, "risks": { "exterior": ["RIGHT_FENDER"], "mechanical": ["FUEL_SYSTEM"], "generic": [] } },
+  { "constructor": "audi", "model": "A6", "year": 2006, "risks": { "exterior": ["RIGHT_FENDER"], "mechanical": [], "generic": ["UNKNOWN_DAMAGE"] } },
+  {
+    "constructor": "audi",
+    "model": "A2",
+    "year": 2003,
+    "risks": { "exterior": ["RIGHT_FENDER"], "mechanical": ["FUEL_SYSTEM", "UNKNOWN_DAMAGE"], "generic": [] }
+  },
+  { "constructor": "audi", "model": "A3", "year": 2006, "risks": { "exterior": ["REAR_BUMPER"], "mechanical": [], "generic": ["UNKNOWN_DAMAGE"] } },
+  {
+    "constructor": "audi",
+    "model": "RS4",
+    "year": 2006,
+    "risks": { "exterior": [], "mechanical": ["FUEL_SYSTEM", "UNKNOWN_DAMAGE"], "generic": [] }
+  },
+  { "constructor": "audi", "model": "RS7", "year": 2014, "risks": { "exterior": ["REAR_BUMPER"], "mechanical": [], "generic": ["UNKNOWN_DAMAGE"] } },
+  {
+    "constructor": "audi",
+    "model": "A8",
+    "year": 2006,
+    "risks": { "exterior": ["REAR_BUMPER"], "mechanical": ["FUEL_SYSTEM", "CLUTCH_PROBLEM"], "generic": ["UNKNOWN_DAMAGE"] }
+  },
+  { "constructor": "audi", "model": "S5", "year": 2014, "risks": { "exterior": ["REAR_BUMPER"], "mechanical": [], "generic": ["UNKNOWN_DAMAGE"] } },
+  {
+    "constructor": "audi",
+    "model": "Q7",
+    "year": 2009,
+    "risks": { "exterior": [], "mechanical": ["CLUTCH_PROBLEM", "ENGINE_FAILURE"], "generic": ["UNKNOWN_DAMAGE"] }
+  },
+  {
+    "constructor": "audi",
+    "model": "A8",
+    "year": 1997,
+    "risks": { "exterior": ["REAR_BUMPER", "RIGHT_FENDER", "UNKNOWN_DAMAGE"], "mechanical": ["CLUTCH_PROBLEM"], "generic": [] }
+  },
+  {
+    "constructor": "audi",
+    "model": "RS6",
+    "year": 2018,
+    "risks": { "exterior": [], "mechanical": ["ENGINE_FAILURE", "UNKNOWN_DAMAGE"], "generic": [] }
+  },
+  {
+    "constructor": "audi",
+    "model": "R8",
+    "year": 2007,
+    "risks": { "exterior": ["REAR_BUMPER"], "mechanical": ["ENGINE_FAILURE", "FUEL_SYSTEM", "UNKNOWN_DAMAGE"], "generic": [] }
+  },
+  {
+    "constructor": "audi",
+    "model": "A4",
+    "year": 2004,
+    "risks": { "exterior": [], "mechanical": ["CLUTCH_PROBLEM", "UNKNOWN_DAMAGE", "ENGINE_FAILURE"], "generic": ["UNKNOWN_DAMAGE"] }
+  },
+  {
+    "constructor": "audi",
+    "model": "Q7",
+    "year": 2008,
+    "risks": { "exterior": ["RIGHT_FENDER"], "mechanical": ["CLUTCH_PROBLEM", "UNKNOWN_DAMAGE"], "generic": ["UNKNOWN_DAMAGE"] }
+  },
+  {
+    "constructor": "audi",
+    "model": "A3",
+    "year": 2003,
+    "risks": { "exterior": ["RIGHT_FENDER"], "mechanical": ["CLUTCH_PROBLEM", "FUEL_SYSTEM"], "generic": ["UNKNOWN_DAMAGE"] }
+  },
+  {
+    "constructor": "audi",
+    "model": "A1",
+    "year": 2010,
+    "risks": { "exterior": ["REAR_BUMPER", "UNKNOWN_DAMAGE", "UNKNOWN_DAMAGE"], "mechanical": [], "generic": [] }
+  },
+  {
+    "constructor": "audi",
+    "model": "S4",
+    "year": 2018,
+    "risks": { "exterior": ["REAR_BUMPER"], "mechanical": ["ENGINE_FAILURE", "UNKNOWN_DAMAGE", "CLUTCH_PROBLEM"], "generic": [] }
+  }
+]
