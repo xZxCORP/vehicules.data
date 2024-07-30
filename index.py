@@ -181,7 +181,7 @@ def generate_car(model: dict):
         if has_sinister:
             accident = crash_to_dict(crash_df.sample())
 
-            if accident["Year"] < model.year:
+            if accident["Year"] < model.year and model.year < 2024:
                 accident["Year"] = np.random.randint(model.year, 2024)
 
             sinisters.append(accident)
@@ -233,7 +233,7 @@ for filename in os.listdir(VEHICLES_DIR):
     cars = []
 
 
-for i in tqdm(range(100)):
+for i in tqdm(range(200000)):
     model: Model = np.random.choice(car_models)
     cars.append(generate_car(model))
 CARS_FILE.write(json.dumps(cars))
