@@ -4,7 +4,9 @@ import os
 import pandas as pd
 import numpy as np
 
+from tqdm import tqdm
 from typing import Union
+
 from vehicule_classes import Model, Vehicle
 
 
@@ -72,7 +74,7 @@ VEHICLE_KEYS = {
     "engineSize",
 }
 
-VEHICLES_DIR = r"vehicles"
+VEHICLES_DIR = r"data/brands"
 
 
 def get_vin():
@@ -92,7 +94,9 @@ def get_vin():
     return vin
 
 
-def generate_choices(array: list, size, replace=False):
+def generate_choices(array: list, size=2, replace=False):
+    if len(array) < 1:
+        return []
     p = np.random.rand(len(array))
     final_p = p / np.sum(p)
     if size > len(array):
@@ -144,10 +148,19 @@ def set_p_for_brands(df: pd.DataFrame, name: str) -> list[Model]:
             }
         )
 
-    file = open(f"{name}-p.json", "w+")
+    file = open(f"data/output/{name}-p.json", "w+")
     file.write(json.dumps(vehicles))
 
     return vehicles
+
+
+def crash_to_dict(df: pd.DataFrame) -> dict:
+    crash_dict = {}
+    vehicle: dict = df.to_dict()
+    for key in vehicle.keys():
+        crash_dict[key] = list(vehicle[key].values())[0]
+
+    return crash_dict
 
 
 def generate_car(model: dict):
@@ -166,14 +179,21 @@ def generate_car(model: dict):
     for _ in range(rounds):
         has_sinister = np.random.choice([True, False], p=[0.25, 0.75])
         if has_sinister:
-            accident = crash_df.sample().to_dict()
+            accident = crash_to_dict(crash_df.sample())
+
+            if accident["Year"] < model.year:
+                accident["Year"] = np.random.randint(model.year, 2024)
+
             sinisters.append(accident)
 
             key = np.random.choice(["exterior", "mechanical", "generic"])
+
             issues[key].append(np.random.choice(ISSUES[key]))
 
     if np.random.choice([True, False], p=[0.45, 0.55]):
-        issues[key].append(np.random.choice(model.risks[key]))
+        key = np.random.choice(["exterior", "mechanical", "generic"])
+        values = model.risks.get(key) if model.risks.get(key) else ISSUES["generic"]
+        issues[key].append(np.random.choice(values))
 
     car = Vehicle(
         constructor=model.constructor,
@@ -185,19 +205,35 @@ def generate_car(model: dict):
         issues=issues,
     )
 
-    return car
+    return {
+        "constructor": car.constructor,
+        "model": car.model,
+        "year": car.year,
+        "risks": car.risks,
+        "sinisters": car.sinisters,
+        "vin": car.vin,
+        "issues": car.issues,
+    }
 
 
+CARS_FILE = open("./data/output/cars.json", "w+")
+
+car_models = []
 for filename in os.listdir(VEHICLES_DIR):
     if filename.lower().endswith(".csv"):
         df = pd.read_csv(f"{VEHICLES_DIR}/{filename}")
         df = df.drop_duplicates(subset=["model", "year"])
-
+    print(filename)
     # We get every model of the csv
     models = list(set(df["model"].tolist()))
     unique_vehicles = [{"name": x.strip()} for x in models]
 
-    brand_models = set_p_for_brands(df, filename.strip(".csv"))
+    car_models.extend(set_p_for_brands(df, filename.strip(".csv")))
 
-    for i in range(1, 1000):
-        model: Model = np.random.choice(brand_models)
+    cars = []
+
+
+for i in tqdm(range(100)):
+    model: Model = np.random.choice(car_models)
+    cars.append(generate_car(model))
+CARS_FILE.write(json.dumps(cars))
